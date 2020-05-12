@@ -76,6 +76,7 @@ cursor: pointer;
 }
 .fila5{
     height:30px;
+    margin-top: 5px;
 }
 #camion{
     margin-left: 190px;
@@ -85,6 +86,7 @@ cursor: pointer;
 }
 .fila6{
     height:40px;
+
     
 }
 #envio{
@@ -131,4 +133,69 @@ hr{
 }
 .fila9{
     height: 25px;
+}
+.fila10{
+    height: 25px;
+    margin-top: 20px;
+}
+#mujer{
+    margin-top: 5px;
+    margin-left: 43px;
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 42px;
+    cursor: pointer;
+}
+#hombre{
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 42px;
+    cursor: pointer;
+}
+.lblcheck{
+    margin-left: 10px;
+}
+.input[type=radio].css-checkbox:checked {
+    background: red;
+    background-color: red;
+    color:red;
+}
+.fila11{
+    height: 70px;
+    margin-top: 20px;
+}
+
+#nombreRegistro{
+    margin-left: 25px;
+    margin-bottom: 0px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+#nombre{
+    margin-left: 25px;
+    width: 320px;
+}
+#apellidosRegistro{
+    margin-left: 2px;
+   margin-bottom: 0px;
+   font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+#apellidos{
+    margin-left: 2px;
+    width: 290px;
+    
+    
 }
