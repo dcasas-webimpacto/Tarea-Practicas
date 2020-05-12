@@ -85,7 +85,6 @@ cursor: pointer;
 }
 .fila6{
     height:40px;
-    border:solid black 1px; 
     
 }
 #envio{
@@ -96,11 +95,40 @@ cursor: pointer;
 }
 .letrasiconos{
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 53px;
     font-family: NexaHeavy;
     font-size: 11px;
     color: #3B3B3B;
     letter-spacing: 0;
     text-align: center;
     line-height: 16px;
+}
+.fila7{
+    height: 25px;
+    margin-top: 10px;
+}
+.letrasacceso{
+    margin-top: 10px;
+    font-family: Nexa-Bold;
+    font-size: 12px;
+    color: #3B3B3B;
+    text-align: center;
+    line-height: 12px;
+}
+hr{
+    width: 150px;
+    background-color: black;
+}
+.fila8{
+    height: 70px;
+}
+.iconosredes{
+    margin-left: 20px;
+    cursor: pointer;
+}
+#face{
+    margin-left: 270px;
+}
+.fila9{
+    height: 25px;
 }
