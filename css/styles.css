@@ -1,17 +1,53 @@
 body{
     background-image: linear-gradient( #FA2398 100%, #DD1F94 100%);
  }
+
+ @font-face
+ {
+    font-family: "Nexa-Xbold";
+    src: url("../Nexa/Nexa_V1_2012/Nexa\ Bold.otf");
+    src: url("../Nexa/Nexa_V1_2012/Nexa\ Light.otf"); 
+    src: url("../Nexa/Nexa_V1_2012/Nexa\ W01\ Heavy.otf");
+ }
+ @font-face
+ {
+    font-family: "Lato-Regular";
+    src: url("../Lato-Regular/Lato-Regular.ttf");
+
+ }
+
+ @media (max-width: 766px) {
+    body{
+        background-image: none;
+    }
+    .fila12-2{
+        margin-left: 25px;
+    }
+    #cumpleanos{
+        margin-left: 20px;
+    }
+    .fila14{
+        margin-top: 70px;
+    }
+    .fila15{
+        margin-top: 100px;
+    }
+    .fila16{
+        margin-top: 100px;
+    }
+}
  .contenedorPrincipal{
    height: 850px;
    width: 680px;
    border-radius: 10px;
    margin-top: 60px;
-   margin-left: 200px;
    background-color: white;
+   position: relative;
  }
  .contenedorImagen{
     background-image: url("../img/Light-Cover-Pattern-bg@2x.png");
     background-size: 50%;
+    border-radius: 10px;
  }
  .fila1{
      height:30px;
@@ -30,7 +66,7 @@ body{
  } 
 #ya{
     text-decoration-line: underline;
-    margin-left: 450px;
+    margin-left: 420px;
     margin-top: 5px;
     cursor: pointer;
 }
@@ -98,8 +134,8 @@ cursor: pointer;
 }
 .letrasiconos{
     margin-top: 5px;
-    margin-left: 53px;
-    font-family: NexaHeavy;
+    margin-left: 43px;
+    font-family: Nexa-XBold;
     font-size: 11px;
     color: #3B3B3B;
     letter-spacing: 0;
@@ -220,6 +256,7 @@ hr{
     line-height: 42px;
 
 }
+
 #selectdias{
     width: 90px;
     margin-left: 33px;
