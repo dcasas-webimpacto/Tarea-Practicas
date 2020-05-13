@@ -23,6 +23,73 @@ body{
     .fila12-2{
         margin-left: 25px;
     }
+    .fila1{
+        font-family: Nexa-XBold;
+    }
+    #ya{
+        margin-left: 130px;
+        text-decoration-line: underline;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    #flechaizquierda{
+        margin-left: 15px;
+    }
+    #volver{
+        margin-top: 5px;
+    }
+    #logogrande{
+        height: 30px;
+        width: 123px;
+        margin-left: 140px;
+    }
+    .fila3{
+        margin-top: 10px;
+    }
+    #crear{
+        margin-left: 80px;
+        font-family: Nexa-XBold;
+        font-size: 25px;
+        color: #1A1B1C;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .contenedorImagen{
+        background-image: url("../img/Light-Cover-Pattern-bg@2x.png");
+        background-size: 50%;
+     }
+     #unete{
+        font-family: Lato-Regular;
+        font-size: 14px;
+        color: #84868A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 33px;
+     }
+     #camion{
+         margin-left: 55px;
+     }
+     #tarjeta{
+         margin-left:56px;
+     }
+     .iconos{
+         margin-left: 50px;
+     }
+     .letrasiconos{
+         margin-top: 5px;
+         margin-left: 32px;
+         font-family: Nexa-XBold;
+         font-size: 11px;
+         color: #3B3B3B;
+         letter-spacing: 0;
+         text-align: center;
+         line-height: 16px;
+     }
+     #mejor{
+         margin-left: 34px;
+     }
     #cumpleanos{
         margin-left: 20px;
     }
@@ -36,6 +103,13 @@ body{
         margin-top: 100px;
     }
 }
+@media (min-width: 420px) {
+   
+    #volver{
+        margin-left: 3px;
+    }
+   
+
  .contenedorPrincipal{
    height: 850px;
    width: 680px;
@@ -66,7 +140,7 @@ body{
  } 
 #ya{
     text-decoration-line: underline;
-    margin-left: 420px;
+    margin-left: 400px;
     margin-top: 5px;
     cursor: pointer;
 }
