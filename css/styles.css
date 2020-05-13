@@ -11,6 +11,7 @@ body{
  }
  .contenedorImagen{
     background-image: url("../img/Light-Cover-Pattern-bg@2x.png");
+    background-size: 50%;
  }
  .fila1{
      height:30px;
@@ -195,7 +196,159 @@ hr{
 }
 #apellidos{
     margin-left: 2px;
+    width: 290px; 
+}
+.fila12{
+    height: 70px;
+}
+
+#cumpleanos{
+    font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 13px;
+    margin-bottom: 0px;
+    margin-left: 33px;
+    
+}
+.primeraeleccion{
+    font-family: Lato-Regular;
+    font-size: 15px;
+    color: #B0B2B6;
+    letter-spacing: 0;
+    line-height: 42px;
+
+}
+#selectdias{
+    width: 90px;
+    margin-left: 33px;
+    margin-right: 0px;
+    padding: 0%;
+}
+#selectmes{
+    width: 90px;
+    margin-top: 23px;
+    padding: 0%;
+}
+#selectanio{
+    width: 90px;
+    margin-top: 23px;
+    padding: 0%;
+}
+.fila13{
+    height: 70px;
+    padding: 0%; 
+}
+
+.fila12-2{
+    padding: 0%;
+}
+.fila13-1{
+    padding: 0%;
+}
+.fila13-2{
+    padding: 0%;
+}
+#emailregistro{
+    margin-left: 15px;
+   margin-bottom: 0px;
+   font-family: Lato-Regular;
+    font-size: 16px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+#email{
+    padding: 0%;
     width: 290px;
-    
-    
+    height: 40px;
+    margin-left: 15px;
+}
+.fila14{
+    height: 70px;
+}
+.fila14-1{
+    padding: 0%;
+}
+.fila14-2{
+    padding: 0%;
+}
+#passRegistro{
+    margin-left: 35px;
+    margin-bottom: 0px;
+    font-family: Lato-Regular;
+     font-size: 16px;
+     color: #3B3B3B;
+     letter-spacing: 0;
+     line-height: 13px;
+}
+#pass{
+    padding: 0%;
+    width: 310px;
+    height: 40px;
+    margin-left: 35px;
+}
+#confRegistro{
+    margin-left: 15px;
+    margin-bottom: 0px;
+    font-family: Lato-Regular;
+     font-size: 16px;
+     color: #3B3B3B;
+     letter-spacing: 0;
+     line-height: 13px;
+}
+#repass{
+    padding: 0%;
+    width: 290px;
+    height: 40px;
+    margin-left: 15px;
+}
+.fila15{
+    padding: 0%;
+    height: 65px;
+    margin-top: 7px;
+}
+.fila15-2{
+    padding: 0%;
+}
+#checknews{
+    margin-left: 40px;
+}
+#textonews{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+#textocheckabajo{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #84868A;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 16px;
+}
+#checkconfirmo{
+    margin-left: 25px;
+    margin-right: 27px;
+}
+#textoconfirmo{
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.fila16{
+    height: 60px;
+    margin-top: 16px;
+}
+#botonregistro{
+    width: 630px;
+    height: 50px;
+    margin-left: 37px;
+    background-color: #FA2398;
 }
