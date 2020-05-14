@@ -15,11 +15,13 @@ body{
     src: url("../Lato-Regular/Lato-Regular.ttf");
 
  }
-
- @media (max-width: 766px) {
+@media (max-width: 823px){
     body{
         background-image: none;
     }
+}
+ @media (max-width: 766px) {
+   
     .contenedorPrincipal{
         border-radius: 10px;
         background-color: white;
