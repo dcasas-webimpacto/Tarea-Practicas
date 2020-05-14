@@ -20,6 +20,11 @@ body{
     body{
         background-image: none;
     }
+    .contenedorPrincipal{
+        border-radius: 10px;
+        background-color: white;
+        position: relative;
+      }
     .fila12-2{
         margin-left: 25px;
     }
@@ -27,7 +32,7 @@ body{
         font-family: Nexa-XBold;
     }
     #ya{
-        margin-left: 130px;
+        margin-left: 115px;
         text-decoration-line: underline;
         margin-top: 5px;
         cursor: pointer;
@@ -90,11 +95,681 @@ body{
      #mejor{
          margin-left: 34px;
      }
+     #face{
+        margin-left: 110px;
+    }
+     .iconosredes{
+        margin-left: 30px;
+     }
+     .fila9{
+         margin-top: 24px;
+     }
+     .fila10{
+         margin-top: 10px;
+     }
+     #mujer{
+         margin-left: 35px;
+     }
+     #hombre{
+        margin-left: 35px;
+    }
+    .lblcheck{
+       margin-bottom: 5px;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    #nombreRegistro{
+        margin-left: 15px;
+        margin-bottom: 0px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+    }
+    #nombre{
+        margin-bottom: 0px;
+        margin-left: 15px;
+        width: 150px;
+    }
+    #apellidosRegistro{
+        margin-bottom: 0px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+    }
+    #apellidos{
+        width: 140px;
+    }
+    .fila13{
+        margin-top: 10px;
+    }
+    .fila12-1{
+        margin-top: 5px;
+    }
     #cumpleanos{
+        margin-left: 21px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+        margin-bottom: 0px;
+    }
+    #selectdias{
+        width: 110px;
+        margin-right: 0px;
         margin-left: 20px;
     }
+    #selectmes{
+        width: 110px;
+        margin-top: 24px;
+        margin-left: 10px;
+    }
+    #selectanio{
+        width: 110px;
+        margin-top: 24px;
+        margin-right: 20px;
+    }
+    .fila13-1, .fila13-2,.fila13-3{
+        padding: 0%;
+    }
+    .fila12-2{
+        padding: 0%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #emailregistro{
+        margin-left: 32px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+    }
+    #email{
+        width: 330px;
+        margin-left: 25px;
+    }
     .fila14{
-        margin-top: 70px;
+        margin-top: 10px;
+    }
+    #passRegistro{
+        margin-left: 15px;
+        margin-bottom: 0px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+    }
+    #pass{
+        margin-left: 15px;
+        width: 160px;
+    }
+    #confRegistro{
+        margin-bottom: 0px;
+        font-family: Lato-Regular;
+        font-size: 16px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 13px;
+    }
+    #repass{
+        width: 160px;
+    }
+    .fila15{
+        margin-top: 10px;
+    }
+    #checknews{
+        margin-left: 35px;
+    }
+    #textonews{
+        font-family: Lato-Regular;
+        font-size: 14px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    #textocheckabajo{
+        font-family: Lato-Regular;
+        font-size: 14px;
+        color: #84868A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .fila16{
+        margin-top: 10px;
+    }
+    #checkconfirmo{
+        margin-left: 35px;
+    }
+    #textoconfirmo{
+        font-family: Lato-Regular;
+        font-size: 12px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    #botonregistro{
+        width: 300px;
+        height: 40px;
+        margin-left:52px;
+        background-color: #FA2398;
+        border-color: #FA2398;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 300px) {
+    #ya{
+        margin-left: 79px;
+    }
+    #logogrande{
+        height: 30px;
+        width: 123px;
+        margin-left: 120px;
+    }
+    #crear{
+        margin-left: 50px;
+        font-family: Nexa-XBold;
+        font-size: 25px;
+        color: #1A1B1C;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    #unete{
+        font-family: Lato-Regular;
+        font-size: 12px;
+        color: #84868A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 33px;
+     }
+     #camion{
+        margin-left: 45px;
+    }
+    #tarjeta{
+        margin-left:36px;
+    }
+    .iconos{
+        margin-left: 40px;
+    }
+    .letrasiconos{
+        margin-top: 3px;
+        margin-left: 32px;
+        font-family: Nexa-XBold;
+        font-size: 11px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 16px;
+    }
+    #mejor{
+            margin-left: 24px;
+        }
+     #face{
+        margin-left: 80px;
+         }
+     .iconosredes{
+        margin-left: 30px;
+        }
+       #pago{
+        margin-left: 15px;
+        }
+   #ofertas{
+       margin-left: 10px;
+   }
+        #cumpleanos{
+            margin-left: 18px;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+            margin-bottom: 0px;
+        }
+        #selectdias{
+            width: 100px;
+            margin-right: 0px;
+            margin-left: 20px;
+        }
+        #selectmes{
+            width: 100px;
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        #selectanio{
+            width: 100px;
+            margin-top: 24px;
+            margin-right: 22px;
+        }
+        .fila13-1, .fila13-2,.fila13-3{
+            padding: 0%;
+        }
+        #emailregistro{
+            margin-left: 32px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #email{
+            width: 300px;
+            margin-left: 25px;
+        }
+        #passRegistro{
+            margin-left: 15px;
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #pass{
+            margin-left: 15px;
+            width: 140px;
+        }
+        #confRegistro{
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #repass{
+            width: 140px;
+        }
+        #checknews{
+            margin-left: 35px;
+        }
+        #textonews{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #textocheckabajo{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #84868A;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 20px;
+            margin-left: 22px;
+            margin-right: 0px;
+        }
+        .fila16{
+            margin-top: 10px;
+        }
+        #checkconfirmo{
+            margin-left: 35px;
+        }
+        #textoconfirmo{
+            font-family: Lato-Regular;
+            font-size: 12px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #botonregistro{
+            width: 280px;
+            height: 45px;
+            margin-left:35px;
+            background-color: #FA2398;
+            border-color: #FA2398;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+}
+@media (min-width: 350px) {
+    #ya{
+        margin-left: 113px;
+    }
+    
+    #logogrande{
+        height: 30px;
+        width: 123px;
+        margin-left: 140px;
+    }
+    #crear{
+        margin-left: 80px;
+        font-family: Nexa-XBold;
+        font-size: 25px;
+        color: #1A1B1C;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 30px;
+    }
+    #unete{
+        font-family: Lato-Regular;
+        font-size: 14px;
+        color: #84868A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 33px;
+     }
+     #camion{
+        margin-left: 55px;
+    }
+    #tarjeta{
+         margin-left:56px;
+     }
+    .iconos{
+        margin-left: 50px;
+    }
+    .letrasiconos{
+        margin-top: 5px;
+        margin-left: 32px;
+        font-family: Nexa-XBold;
+        font-size: 11px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 16px;
+    }
+    #mejor{
+        margin-left: 34px;
+    }
+    #face{
+       margin-left: 110px;
+   }
+        #pago,#ofertas{
+            margin-left: 32px;
+        }
+        #cumpleanos{
+            margin-left: 21px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+            margin-bottom: 0px;
+        }
+        #selectdias{
+            width: 110px;
+            margin-right: 0px;
+            margin-left: 20px;
+        }
+        #selectmes{
+            width: 110px;
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        #selectanio{
+            width: 110px;
+            margin-top: 24px;
+            margin-right: 20px;
+        }
+        .fila13-1, .fila13-2,.fila13-3{
+            padding: 0%;
+        }
+        #emailregistro{
+            margin-left: 32px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #email{
+            width: 330px;
+            margin-left: 25px;
+        }
+        #passRegistro{
+            margin-left: 15px;
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #pass{
+            margin-left: 15px;
+            width: 160px;
+        }
+        #confRegistro{
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #repass{
+            width: 160px;
+        }
+        #checknews{
+            margin-left: 35px;
+        }
+        #textonews{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #textocheckabajo{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #84868A;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 20px;
+            margin-left: 0px;
+            margin-right: 20px;
+        }
+        .fila16{
+            margin-top: 10px;
+        }
+        #checkconfirmo{
+            margin-left: 35px;
+        }
+        #textoconfirmo{
+            font-family: Lato-Regular;
+            font-size: 12px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #botonregistro{
+            width: 300px;
+            height: 40px;
+            margin-left:52px;
+            background-color: #FA2398;
+            border-color: #FA2398;
+            margin-bottom: 15px;
+        }
+}
+
+@media (min-width: 410px) {
+    #ya{
+        margin-left: 165px;
+        text-decoration-line: underline;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    #logogrande{
+        height: 30px;
+        width: 123px;
+        margin-left: 165px;
+    }
+    #crear{
+        margin-left: 95px;
+        font-family: Nexa-XBold;
+        font-size: 25px;
+        color: #1A1B1C;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    #unete{
+        font-family: Lato-Regular;
+        font-size: 12px;
+        color: #84868A;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 20px;
+        margin-left: 83px;
+     }
+     #camion{
+        margin-left: 105px;
+    }
+    #tarjeta{
+        margin-left:36px;
+    }
+    .iconos{
+        margin-left: 40px;
+    }
+    .letrasiconos{
+        margin-top: 3px;
+        margin-left: 78px;
+        font-family: Nexa-XBold;
+        font-size: 11px;
+        color: #3B3B3B;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 16px;
+    }
+    #mejor{
+            margin-left: 34px;
+            margin-right: 10px;
+        }
+     #face{
+        margin-left: 135px;
+         }
+     .iconosredes{
+        margin-left: 30px;
+        }
+       #pago{
+        margin-left: 15px;
+        }
+   #ofertas{
+       margin-left: 10px;
+   }
+        #cumpleanos{
+            margin-left: 28px;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+            margin-bottom: 0px;
+        }
+        #selectdias{
+            width: 110px;
+            margin-right: 0px;
+            margin-left: 30px;
+        }
+        #selectmes{
+            width: 110px;
+            margin-top: 24px;
+            margin-left: 10px;
+        }
+        #selectanio{
+            width: 110px;
+            margin-top: 24px;
+            margin-right: 22px;
+        }
+        .fila13-1, .fila13-2,.fila13-3{
+            padding: 0%;
+        }
+        #emailregistro{
+            margin-left: 32px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #email{
+            width: 320px;
+            margin-left: 33px;
+        }
+        #passRegistro{
+            margin-left: 20px;
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #pass{
+            margin-left: 19px;
+            width: 160px;
+        }
+        #confRegistro{
+            margin-bottom: 0px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 13px;
+        }
+        #repass{
+            width: 160px;
+        }
+        #checknews{
+            margin-left: 40px;
+        }
+        #textonews{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #textocheckabajo{
+            font-family: Lato-Regular;
+            font-size: 14px;
+            color: #84868A;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 20px;
+            margin-left: 0px;
+            margin-right: 55px;
+        }
+        .fila16{
+            margin-top: 10px;
+        }
+        #checkconfirmo{
+            margin-left: 40px;
+        }
+        #textoconfirmo{
+            font-family: Lato-Regular;
+            font-size: 12px;
+            color: #3B3B3B;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        #botonregistro{
+            width: 320px;
+            height: 45px;
+            margin-left:64px;
+            background-color: #FA2398;
+            border-color: #FA2398;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+@media (min-width: 420px) {
+    .fila14{
+        margin-top: 10px;
     }
     .fila15{
         margin-top: 100px;
@@ -102,13 +777,6 @@ body{
     .fila16{
         margin-top: 100px;
     }
-}
-@media (min-width: 420px) {
-   
-    #volver{
-        margin-left: 3px;
-    }
-   
 
  .contenedorPrincipal{
    height: 850px;
@@ -190,25 +858,26 @@ cursor: pointer;
     margin-top: 5px;
 }
 #camion{
-    margin-left: 190px;
+    margin-left:230px;
 }
 .iconos{
-    margin-left: 69px;
+    margin-left: 59px;
 }
 .fila6{
     height:40px;
-
-    
 }
 #envio{
-    margin-left: 175px;
+    margin-left: 215px;
 }
 #mejor{
-    margin-left: 57px;
+    margin-left: 42px;
+}
+#lock{
+    margin-left: 43px;
 }
 .letrasiconos{
     margin-top: 5px;
-    margin-left: 43px;
+    margin-left: 73px;
     font-family: Nexa-XBold;
     font-size: 11px;
     color: #3B3B3B;
@@ -333,7 +1002,7 @@ hr{
 
 #selectdias{
     width: 90px;
-    margin-left: 33px;
+    margin-left: 43px;
     margin-right: 0px;
     padding: 0%;
 }
@@ -341,11 +1010,13 @@ hr{
     width: 90px;
     margin-top: 23px;
     padding: 0%;
+    margin-left: 0px;
 }
 #selectanio{
     width: 90px;
     margin-top: 23px;
     padding: 0%;
+    margin-left: 10px;
 }
 .fila13{
     height: 70px;
@@ -361,6 +1032,7 @@ hr{
 .fila13-2{
     padding: 0%;
 }
+
 #emailregistro{
     margin-left: 15px;
    margin-bottom: 0px;
@@ -441,6 +1113,7 @@ hr{
     text-align: center;
     line-height: 20px;
     margin-left: 16px;
+    margin-right: 0px;
 }
 #checkconfirmo{
     margin-left: 25px;
@@ -462,4 +1135,6 @@ hr{
     height: 50px;
     margin-left: 37px;
     background-color: #FA2398;
+    border-color: #FA2398;
+}
 }
