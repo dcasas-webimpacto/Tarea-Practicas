@@ -23,234 +23,223 @@
 
 </head>
 <body >
-
-
-
-
-
-
-
 <div class="container">
     <div class="row fila20 justify-content-center">
-	<div class="contenedorPrincipal " >
-        <div class="contenedorImagen">
-            <div class="row fila1"> 
-                <img src="img/go-back.svg"  id="flechaizquierda"alt="">
-                <p id="volver">Volver</p> 
-                <p id="ya">Ya tengo cuenta</p> 
-                <img src="img/User.svg" id="logousuario"alt="" align="right"> 
-               </div> 
-       
-               <div class="row fila2">
-                   <img src="img/Nutritienda-simple_logo.svg" id="logogrande"alt="">
-               </div>
-               <div class="row fila3" >
-                <p id="crear">Crear nueva cuenta</p>
-            </div>
-        </div> <!-- CIERRE CONTENEDOR IMAGEN -->
-        
-        <div class="row fila4">
-            <p id="unete">Únete y disfruta de todas las ventajas: pedidos rápidos<br>
-            descuento,promociones,beneficios y muchos más!</p>
-        </div>
-
-        <div class="row fila5">
-            <img src="img/Delivery.svg" class="iconos"id="camion" alt="">
-            <img src="img/best_price.svg" class="iconos"id="mejorprecio"alt="">
-            <img src="img/lock.svg" class="iconos"id="lock" alt="">
-            <img src="img/Superprice.svg" class="iconos" id="tarjeta"alt="">
-        </div>
-
-        <div class="row fila6">
-            <p class="letrasiconos" id="envio">ENVÍO<br>GRATUITO</p>
-            <p class="letrasiconos" id="mejor">MEJOR<br>PRECIO</p>
-            <p class="letrasiconos" id="pago">PAGO 100%<br>SEGURO</p>
-            <p class="letrasiconos" id="ofertas">OFERTAS<br>EXCLUSIVAS</p>
-        </div>
-        
-        <div class="row fila7">
-            <hr/><p class="letrasacceso">ACCESO RÁPIDO CON REDES SOCIALES </p> <hr/>
-        </div>
-
-        <div class="row fila8">
-            <img class="iconosredes" id="face"src="img/connect-Facebook-42px.svg" alt="">
-            <img class="iconosredes" id="google"src="img/connect-Google-42px.svg" alt="">
-            <img class="iconosredes" id="twitter"src="img/connect-Twitter-42px.svg" alt="">
-        </div>
-
-        <div class="row fila9">
-            <hr/><p class="letrasacceso">ACCESO CON EMAIL Y CONTRASEÑA </p> <hr/>
-        </div>
-        <form>
-        <div class="row fila10">
-            <input type="radio" id="mujer" name="genero" value="mujer">
-            <label for="mujer" class="lblcheck">Mujer</label>
-            <input type="radio" id="hombre" name="genero" value="hombre">
-            <label for="hombre"class="lblcheck">Hombre</label>
-        </div>
-       
-        <div class="row fila11">
-            <div class="col-6 fila11-1">
-                <label id="nombreRegistro"for="nombreRegistro">Nombre</label>
-                <input type="name" class="form-control" id="nombre" >
-            </div>
-            <div class="col-6 fila11-2">
-                <label id="apellidosRegistro"for="apellidosRegistro">Apellidos</label>
-                <input type="name" class="form-control" id="apellidos" >
-            </div>
-        </div>
-
-        <div class="row fila12">
-            <div class="col-lg-6  col-md-6 fila12-1">
-                <div class="row fila13">
-                    <div class="col-4 col-lg-5 col-md-5  fila13-1">
-                         <label id="cumpleanos">Tu cumpleaños</label>
-                <select class="form-control" id="selectdias">
-                  <option class="primeraeleccion">Día</option>
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>10</option>
-                  <option>11</option>
-                  <option>11</option>
-                  <option>12</option>
-                  <option>13</option>
-                  <option>14</option>
-                  <option>15</option>
-                  <option>16</option>
-                  <option>17</option>
-                  <option>18</option>
-                  <option>19</option>
-                  <option>20</option>
-                  <option>21</option>
-                  <option>22</option>
-                  <option>23</option>
-                  <option>24</option>
-                  <option>25</option>
-                  <option>26</option>
-                  <option>27</option>
-                  <option>28</option>
-                  <option>29</option>
-                  <option>30</option>
-                  <option>31</option>
-                </select>
-
-                    </div>
-                    <div class="col-4 col-lg-3 col-md-3  fila13-2">
-                        <select class="form-control" id="selectmes">
-                            <option class="primeraeleccion">Mes</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>11</option>
-                            <option>12</option> 
-                        </select>
-                    </div>
-                    <div class="col-4 col-lg-4 col-md-4 fila13-3">
-                        <select class="form-control" id="selectanio">
-                            <option class="primeraeleccion">Año</option>
-                            <option>1993</option>
-                            <option>1994</option>
-                            <option>1995</option>
-                            <option>1996</option>
-                            <option>1997</option>
-                            <option>1998</option>
-                            <option>1999</option>
-                            <option>2000</option>
-                            <option>2001</option>
-                            <option>2002</option>
-                            <option>2003</option>
-                            <option>2004</option> 
-                            <option>2005</option>
-                            <option>2006</option>
-                            <option>2007</option>
-                            <option>2008</option>
-                            <option>2009</option> 
-                            <option>2010</option>
-                            <option>2011</option>
-                            <option>2012</option>
-                            <option>2013</option>
-                            <option>2014</option>
-                            <option>2015</option>
-                            <option>2016</option>
-                            <option>2017</option>
-                            <option>2018</option>
-                            <option>2019</option>  
-                        </select>
+        <div class="contenedorPrincipal ">
+            <div class="contenedorImagen">
+                <div class="row fila1">
+                    <img src="img/go-back.svg" id="flechaizquierda" alt="">
+                    <p id="volver">Volver</p>
+                    <p id="ya">Ya tengo cuenta</p>
+                    <img src="img/User.svg" id="logousuario" alt="" align="right">
                 </div>
+
+                <div class="row fila2">
+                    <img src="img/Nutritienda-simple_logo.svg" id="logogrande" alt="">
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 col-md-6 fila12-2">
-                <label id="emailregistro">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Ej.:tu@email.com">
-            </div>
-        </div>
 
-        <div class="row fila14">
-            <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-1">
-                <label id="passRegistro">Contraseña</label>
-                <input class="form-control" id="pass"type="password">
-            </div>
-            <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-2">
-                <label id="confRegistro">Repetir contraseña</label>
-                <input class="form-control" id="repass"type="password">
-            </div>
-        </div>
+                <div class="row fila3">
+                    <p id="crear">Crear nueva cuenta</p>
+                </div>
+            </div> <!-- CIERRE CONTENEDOR IMAGEN -->
 
-        <div class="row fila15">
-            <div class="col-12 col-md-6 col-lg-6 fila15-1">
-                <label class="form-check-label"id="checknews">
-                <input type="checkbox" class="form-check-input" id="textonews"> Suscríbete a la Nexletter</label>
-                <br>
-                <p id="textocheckabajo">Acceso exclusivo a noticias, nuevos productos, <br>descuentos, sorteos y promociones especiales.</p>
+            <div class="row fila4">
+                <p id="unete">Únete y disfruta de todas las ventajas: pedidos rápidos<br>
+                    descuento,promociones,beneficios y muchos más!</p>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 fila15-2">
-                <label class="form-check-label"id="checkconfirmo">
-                    <input type="checkbox" class="form-check-input" id="textoconfirmo"> Confirmo que he leído y acepto la política de privacidad.</label>
+
+            <div class="row fila5">
+                <img src="img/Delivery.svg" class="iconos" id="camion" alt="">
+                <img src="img/best_price.svg" class="iconos" id="mejorprecio" alt="">
+                <img src="img/lock.svg" class="iconos" id="lock" alt="">
+                <img src="img/Superprice.svg" class="iconos" id="tarjeta" alt="">
             </div>
-        </div>
 
-        <div class="row fila16">
-            <button type="button" class="btn btn-primary btn-lg btn-block" id="botonregistro">Regístrate</button>
+            <div class="row fila6">
+                <p class="letrasiconos" id="envio">ENVÍO<br>GRATUITO</p>
+                <p class="letrasiconos" id="mejor">MEJOR<br>PRECIO</p>
+                <p class="letrasiconos" id="pago">PAGO 100%<br>SEGURO</p>
+                <p class="letrasiconos" id="ofertas">OFERTAS<br>EXCLUSIVAS</p>
+            </div>
 
-        </div>
-        </form>
+            <div class="row fila7">
+                <hr />
+                <p class="letrasacceso">ACCESO RÁPIDO CON REDES SOCIALES </p>
+                <hr />
+            </div>
 
-     </div>   <!-- CIERRE CONTENEDOR APLICACIÓN -->
-         
-    
-</div>
+            <div class="row fila8">
+                <img class="iconosredes" id="face" src="img/connect-Facebook-42px.svg" alt="">
+                <img class="iconosredes" id="google" src="img/connect-Google-42px.svg" alt="">
+                <img class="iconosredes" id="twitter" src="img/connect-Twitter-42px.svg" alt="">
+            </div>
+
+            <div class="row fila9">
+                <hr />
+                <p class="letrasacceso">ACCESO CON EMAIL Y CONTRASEÑA </p>
+                <hr />
+            </div>
+
+            <form>
+                <div class="row fila10">
+                    <input type="radio" id="mujer" name="genero" value="mujer">
+                    <label for="mujer" class="lblcheck">Mujer</label>
+                    <input type="radio" id="hombre" name="genero" value="hombre">
+                    <label for="hombre" class="lblcheck">Hombre</label>
+                </div>
+
+                <div class="row fila11">
+                    <div class="col-6 fila11-1">
+                        <label id="nombreRegistro" for="nombreRegistro">Nombre</label>
+                        <input type="name" class="form-control" id="nombre">
+                    </div>
+                    <div class="col-6 fila11-2">
+                        <label id="apellidosRegistro" for="apellidosRegistro">Apellidos</label>
+                        <input type="name" class="form-control" id="apellidos">
+                    </div>
+                </div>
+
+                <div class="row fila12">
+                    <div class="col-lg-6  col-md-6 fila12-1">
+                        <div class="row fila13">
+                            <div class="col-4 col-lg-5 col-md-5  fila13-1">
+                                <label id="cumpleanos">Tu cumpleaños</label>
+                                <select class="form-control" id="selectdias">
+                                    <option class="primeraeleccion">Día</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                    <option>13</option>
+                                    <option>14</option>
+                                    <option>15</option>
+                                    <option>16</option>
+                                    <option>17</option>
+                                    <option>18</option>
+                                    <option>19</option>
+                                    <option>20</option>
+                                    <option>21</option>
+                                    <option>22</option>
+                                    <option>23</option>
+                                    <option>24</option>
+                                    <option>25</option>
+                                    <option>26</option>
+                                    <option>27</option>
+                                    <option>28</option>
+                                    <option>29</option>
+                                    <option>30</option>
+                                    <option>31</option>
+                                </select>
+                            </div>
+                            <div class="col-4 col-lg-3 col-md-3  fila13-2">
+                                <select class="form-control" id="selectmes">
+                                    <option class="primeraeleccion">Mes</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                            </div>
+                            <div class="col-4 col-lg-4 col-md-4 fila13-3">
+                                <select class="form-control" id="selectanio">
+                                    <option class="primeraeleccion">Año</option>
+                                    <option>1993</option>
+                                    <option>1994</option>
+                                    <option>1995</option>
+                                    <option>1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                    <option>2000</option>
+                                    <option>2001</option>
+                                    <option>2002</option>
+                                    <option>2003</option>
+                                    <option>2004</option>
+                                    <option>2005</option>
+                                    <option>2006</option>
+                                    <option>2007</option>
+                                    <option>2008</option>
+                                    <option>2009</option>
+                                    <option>2010</option>
+                                    <option>2011</option>
+                                    <option>2012</option>
+                                    <option>2013</option>
+                                    <option>2014</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 fila12-2">
+                        <label id="emailregistro">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ej.:tu@email.com">
+                    </div>
+                </div>
+
+                <div class="row fila14">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-1">
+                        <label id="passRegistro">Contraseña</label>
+                        <input class="form-control" id="pass" type="password">
+                    </div>
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-2">
+                        <label id="confRegistro">Repetir contraseña</label>
+                        <input class="form-control" id="repass" type="password">
+                    </div>
+                </div>
+
+                <div class="row fila15">
+                    <div class="col-12 col-md-6 col-lg-6 fila15-1">
+                        <label class="form-check-label" id="checknews">
+                            <input type="checkbox" class="form-check-input" id="textonews"> Suscríbete a la
+                            Nexletter</label>
+                        <br>
+                        <p id="textocheckabajo">Acceso exclusivo a noticias, nuevos productos, <br>descuentos, sorteos y
+                            promociones especiales.</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 fila15-2">
+                        <label class="form-check-label" id="checkconfirmo">
+                            <input type="checkbox" class="form-check-input" id="textoconfirmo"> Confirmo que he leído y
+                            acepto la política de privacidad.</label>
+                    </div>
+                </div>
+
+                <div class="row fila16">
+                    <button type="button" class="btn btn-primary btn-lg btn-block"
+                        id="botonregistro">Regístrate</button>
+                </div>
+            </form>
+
+        </div> <!-- CIERRE CONTENEDOR APLICACIÓN -->
+
+
+    </div>
 </div> <!-- CIERRE CONTENEDOR PRINCIPAL -->
 	
-
-
-
  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script>
-
-
-
-</script>
-
-
-
-
-
+<script></script>
 </body>
 </html>
