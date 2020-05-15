@@ -15,13 +15,85 @@ body{
     src: url("../Lato-Regular/Lato-Regular.ttf");
 
  }
+ .checkbox{
+    width: 22px;
+    height: 18px;
+    border: 1px solid #C0C2C8;
+     border-radius: 10%;
+  }
+  .checked{
+    background:url("../img/check_for_checkbox.svg") no-repeat 30% 60% ;
+    border:solid black 1px;
+  }
+ .pretty-radio {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .radio {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5em;
+    height: 5em;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .radio-look {  
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    border: 0.1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 40px;
+    
+    
+  }
+  
+  .radio-look:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;
+    border: 2.6px #FA2398;
+    border-radius: 70%;
+    font-family: Lato-Bold;
+    font-size: 15px;
+    color: #3B3B3B;
+    letter-spacing: 0;
+    line-height: 42px;
+    font-weight: bold;
+  }
+  
+  .radio:checked + .radio-look:after {
+    background: #FA2398; 
+    font-weight: bold;
+  }
 @media (max-width: 823px){
     body{
         background-image: none;
     }
 }
  @media (max-width: 766px) {
-   
+    .radio-look {  
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px;
+        border: 0.1px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 70px;
+      }
+ 
     .contenedorPrincipal{
         border-radius: 10px;
         background-color: white;
@@ -109,7 +181,7 @@ body{
      .fila10{
          margin-top: 10px;
      }
-     #mujer,#hombr{
+     #mujer,#hombre{
          margin-left: 35px;
      }
     .lblcheck{
@@ -218,7 +290,7 @@ body{
         margin-top: 10px;
     }
     #checknews{
-        margin-left: 35px;
+        margin-left: 15px;
     }
     #textonews{
         font-family: Lato-Regular;
@@ -266,6 +338,17 @@ body{
 }
 
 @media (min-width: 300px) {
+    .radio-look {  
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px;
+        border: 0.1px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 30px;
+      }
     #ya{
         margin-left: 64px;
     }
@@ -386,11 +469,11 @@ body{
             width: 140px;
         }
         #checknews{
-            margin-left: 35px;
+            margin-left: 15px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -409,11 +492,11 @@ body{
             margin-top: 10px;
         }
         #checkconfirmo{
-            margin-left: 35px;
+            margin-left: 15px;
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 14px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -425,6 +508,7 @@ body{
             background-color: #FA2398;
             border-color: #FA2398;
             margin-bottom: 15px;
+            border-radius: 4px;
             text-align: center;
         }
 }
@@ -543,11 +627,11 @@ body{
             width: 160px;
         }
         #checknews{
-            margin-left: 35px;
+            margin-left: 25px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -566,11 +650,11 @@ body{
             margin-top: 10px;
         }
         #checkconfirmo{
-            margin-left: 35px;
+            margin-left: 25px;
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 14px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -710,11 +794,11 @@ body{
             width: 160px;
         }
         #checknews{
-            margin-left: 40px;
+            margin-left: 35px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -726,7 +810,7 @@ body{
             letter-spacing: 0;
             text-align: center;
             line-height: 20px;
-            margin-left: 0px;
+            margin-left: 15px;
             margin-right: 55px;
         }
         .fila16{
@@ -737,7 +821,7 @@ body{
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -753,7 +837,17 @@ body{
         }
     }
     @media (min-width: 480px) {
-       
+        .radio-look {  
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 5px;
+            border: 0.1px solid black;
+            border-radius: 50%;
+            position: relative;
+            margin-left: 50px;
+          }
         #flechaizquierda{
             margin-left: 35px;
         }
@@ -903,11 +997,11 @@ body{
             width: 160px;
         }
         #checknews{
-            margin-left: 55px;
+            margin-left: 45px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -919,15 +1013,15 @@ body{
             letter-spacing: 0;
             text-align: center;
             line-height: 20px;
-            margin-left: 0px;
+            margin-left: 40px;
             margin-right: 120px;
         }
         #checkconfirmo{
-            margin-left: 55px;
+            margin-left: 45px;
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -942,7 +1036,17 @@ body{
         }
     }
     @media (min-width: 578px) {
-       
+        .radio-look {  
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            vertical-align: middle;
+            padding: 5px;
+            border: 0.1px solid black;
+            border-radius: 50%;
+            position: relative;
+            margin-left: 70px;
+          }
         #ya{
             margin-left: 260px;
         }
@@ -1038,14 +1142,17 @@ body{
             width: 160px;
         }
         #checknews{
-            margin-left: 75px;
+            margin-left: 55px;
+            margin-top: 5px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
+            margin-left: 0px;
+            margin-bottom: 0px;
         }
         #textocheckabajo{
             font-family: Lato-Regular;
@@ -1058,11 +1165,11 @@ body{
             margin-right: 140px;
         }
         #checkconfirmo{
-            margin-left: 75px;
+            margin-left: 55px;
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 16px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
@@ -1077,7 +1184,17 @@ body{
         }
     }
 @media (min-width: 768px) {
-
+    .radio-look {  
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px;
+        border: 0.1px solid black;
+        border-radius: 50%;
+        position: relative;
+        margin-left: 40px;
+      }
         .fila14{
             margin-top: 10px;
         }
@@ -1387,14 +1504,19 @@ body{
             padding: 0%;
         }
         #checknews{
-            margin-left: 40px;
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
         #textonews{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 15px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
+            margin-bottom: 0px;
+            margin-left: 3px;
+            font-weight: bold;
         }
         #textocheckabajo{
             font-family: Lato-Regular;
@@ -1407,24 +1529,31 @@ body{
             margin-right: 0px;
         }
         #checkconfirmo{
-            margin-left: 25px;
-            margin-right: 27px;
+            margin-left: 10px;
+            margin-right: 0px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            float: left;
         }
         #textoconfirmo{
             font-family: Lato-Regular;
-            font-size: 12px;
+            font-size: 15px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 20px;
+            margin-top: 10px;
+            margin-left: 3px;
+            font-weight: bold;
         }
         .fila16{
             height: 60px;
-            margin-top: 16px;
+            margin-top: 26px;
         }
         #botonregistro{
             width: 630px;
             height: 50px;
             margin-left: 37px;
+            margin-top: 15px;
             background-color: #FA2398;
             border-color: #FA2398;
         }

@@ -11,9 +11,9 @@
 	<script src="js/lib/TweenMax.min.js"></script>
 	
 	<!-- Importacion del Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo2.css">
     <!-- Importacion CSS -->
-	<link rel="stylesheet" href="css/styleS.css">
+	<link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body >
@@ -75,11 +75,17 @@
             </div>
 
             <form>
-                <div class="row fila10">
-                    <input type="radio" id="mujer" name="genero" value="mujer">
-                    <label for="mujer" class="lblcheck">Mujer</label>
-                    <input type="radio" id="hombre" name="genero" value="hombre">
-                    <label for="hombre" class="lblcheck">Hombre</label>
+                <div class="row fila10" id="checksss">
+                    <div class="pretty-radio">
+                        <input type="radio" class="radio" name="my-radio">
+                        <span class="radio-look"></span>
+                        Mujer
+                    </div>
+                    <div class="pretty-radio">
+                        <input type="radio" class="radio"  name="my-radio">
+                        <span class="radio-look"></span>
+                        Hombre
+                    </div>
                 </div>
 
                 <div class="row fila11">
@@ -203,17 +209,17 @@
 
                 <div class="row fila15">
                     <div class="col-12 col-md-6 col-lg-6 fila15-1">
-                        <label class="form-check-label" id="checknews">
-                            <input type="checkbox" class="form-check-input" id="textonews"> Suscríbete a la
-                            Nexletter</label>
+                        
+                        <label class="checkbox" id="checknews"></label>
+                              <label id="textonews">  Suscríbete a la Newletter</label>
                         <br>
                         <p id="textocheckabajo">Acceso exclusivo a noticias, nuevos productos, <br>descuentos, sorteos y
                             promociones especiales.</p>
-                    </div>
+                        </div>
+                       
                     <div class="col-12 col-md-6 col-lg-6 fila15-2">
-                        <label class="form-check-label" id="checkconfirmo">
-                            <input type="checkbox" class="form-check-input" id="textoconfirmo"> Confirmo que he leído y
-                            acepto la política de privacidad.</label>
+                        <label class="checkbox"  id="checkconfirmo"></label>
+                           <label id="textoconfirmo"> Confirmo que he leído y acepto la política <br> de privacidad.</label>
                     </div>
                 </div>
 
@@ -234,6 +240,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script></script>
+<script>
+     $(".checkbox").click(function(){
+    $(this).toggleClass('checked')
+});
+</script>
 </body>
 </html>
