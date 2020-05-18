@@ -9,11 +9,12 @@
 	<script src="js/lib/jquery-2.1.4.min.js"></script>
 
 	<script src="js/lib/TweenMax.min.js"></script>
-	
+	<script src="js/programa.js"></script>
 	<!-- Importacion del Bootstrap -->
     <link rel="stylesheet" href="css/estilo2.css">
     <!-- Importacion CSS -->
-	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
 
 </head>
 <body >
@@ -197,13 +198,18 @@
                 </div>
 
                 <div class="row fila14">
-                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-1">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-1 inner-addon right-addon" id="show_hide_password">
+
                         <label id="passRegistro">Contraseña</label>
                         <input class="form-control" id="pass" type="password">
+                        <a class="icone"><img src="img/hide.svg"></a>
+                        
+                        
                     </div>
-                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-2">
+                    <div class="col-6 col-lg-6 col-sm-6 col-md-6 fila14-2 inner-addon right-addon" id="show_hide_password2">
                         <label id="confRegistro">Repetir contraseña</label>
                         <input class="form-control" id="repass" type="password">
+                        <a class="icone2"><img src="img/hide.svg"></a>
                     </div>
                 </div>
 
@@ -241,8 +247,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script>
-     $(".checkbox").click(function(){
+
+$(".checkbox").click(function(){
     $(this).toggleClass('checked')
+});
+
+$(document).ready(function() {
+    $("#show_hide_password a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_password input').attr("type") == "text"){
+            $('#show_hide_password input').attr('type', 'password');
+            $('#show_hide_password img').replaceWith('<img src="img/hide.svg">' );
+        }else if($('#show_hide_password input').attr("type") == "password"){
+            $('#show_hide_password input').attr('type', 'text');
+            $('#show_hide_password img').replaceWith('<img src="img/show.svg">' );
+        }
+    });
+});
+$(document).ready(function() {
+    $("#show_hide_password2 a").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_password2 input').attr("type") == "text"){
+            $('#show_hide_password2 input').attr('type', 'password');
+            $('#show_hide_password2 img').replaceWith('<img src="img/hide.svg">' );
+        }else if($('#show_hide_password2 input').attr("type") == "password"){
+            $('#show_hide_password2 input').attr('type', 'text');
+            $('#show_hide_password2 img').replaceWith('<img src="img/show.svg">' );
+        }
+    });
 });
 </script>
 </body>
