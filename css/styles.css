@@ -1489,7 +1489,7 @@ body{
             margin-top: 100px;
         }
         .contenedorPrincipal{
-        height: 850px;
+        height: 990px;
         width: 680px;
         border-radius: 10px;
         margin-top: 60px;
@@ -1503,23 +1503,25 @@ body{
         }
         .fila1{
             height:30px;
+            margin-top: 10px;
             font-family: Nexa-XBold; 
         }
         #flechaizquierda{
-        margin-left: 17px;
+        margin-left: 22px;
         margin-bottom: 12px;
         cursor: pointer;
         }
         #volver{
-            margin-left: 7px;
+            margin-left: 8px;
             margin-top: 5px;
             cursor: pointer;
         } 
         #ya{
             text-decoration-line: underline;
-            margin-left: 400px;
+            margin-left: 430px;
             margin-top: 5px;
             cursor: pointer;
+            font-size: 14px;
         }
         #logousuario{
             margin-bottom: 7px;
@@ -1529,17 +1531,17 @@ body{
             height:60px; 
         }
         #logogrande{
-            margin-left: 260px;
-            margin-top: 10px;
+            margin-left: 253px;
+            margin-top: 32px;
             height: 30px;
             width: 223px;
         }
         .fila3{
             height:40px;
-            margin-top: 10px;
+            margin-top: 52px;
         }
         #crear{
-            margin-left: 240px;
+            margin-left: 225px;
             font-family: Nexa-XBold;
             font-size: 25px;
             color: #1A1B1C;
@@ -1559,29 +1561,43 @@ body{
             letter-spacing: 0;
             text-align: center;
             line-height: 20px;
-            margin-left: 210px;
+            margin-left: 190px;
+        
         }
         .fila5{
             height:30px;
-            margin-top: 5px;
+            margin-top: 13px;
         }
         #camion{
-            margin-left:230px;
+            margin-left:165px;
+        }
+        #mejorprecio{
+            margin-right: 45px;
+            position: relative;
+        }
+        #tarjeta{
+            margin-left: 80px;
         }
         .iconos{
-            margin-left: 59px;
+            margin-left: 82px;
         }
         .fila6{
             height:40px;
         }
         #envio{
-            margin-left: 215px;
+            margin-left: 155px;
         }
         #mejor{
-            margin-left: 42px;
+            margin-left: 59px;
         }
         #lock{
             margin-left: 43px;
+        }
+        #pago{
+            margin-left: 53px;
+        }
+        #ofertas{
+            margin-left: 53px;
         }
         .letrasiconos{
             margin-top: 5px;
@@ -1595,7 +1611,7 @@ body{
         }
         .fila7{
             height: 25px;
-            margin-top: 10px;
+            margin-top: 37px;
         }
         .letrasacceso{
             margin-top: 10px;
@@ -1611,20 +1627,23 @@ body{
         }
         .fila8{
             height: 70px;
+            margin-top: 12px;
         }
         .iconosredes{
-            margin-left: 20px;
+            margin-left: 28px;
             cursor: pointer;
         }
         #face{
-            margin-left: 270px;
+            margin-left: 265px;
         }
         .fila9{
             height: 25px;
+            margin-top: 10px;
         }
         .fila10{
             height: 25px;
-            margin-top: 20px;
+            margin-top: 35px;
+            margin-left: 2px;
         }
         #mujer{
             margin-top: 5px;
@@ -1657,25 +1676,29 @@ body{
         .fila11{
             height: 70px;
             margin-top: 20px;
+            margin-left: 2px;
         }
         #nombreRegistro{
             margin-left: 25px;
             margin-bottom: 0px;
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
         }
         #nombre{
             margin-left: 25px;
-            width: 320px;
+            width: 290px;
+        }
+        .fila11-2{
+            padding:0%;
         }
         #apellidosRegistro{
             margin-left: 2px;
             margin-bottom: 0px;
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
@@ -1687,14 +1710,17 @@ body{
         .fila12{
             height: 70px;
         }
+        .fila13{
+            margin-left: 2px;
+        }
         #cumpleanos{
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
-            margin-bottom: 0px;
-            margin-left: 33px;
+            margin-top: 15px;
+            margin-left: 39px;
         }
         .primeraeleccion{
             font-family: Lato-Regular;
@@ -1711,13 +1737,13 @@ body{
         }
         #selectmes{
             width: 90px;
-            margin-top: 23px;
+            margin-top: 33px;
             padding: 0%;
             margin-left: 0px;
         }
         #selectanio{
-            width: 90px;
-            margin-top: 23px;
+            width: 95px;
+            margin-top: 33px;
             padding: 0%;
             margin-left: 10px;
         }
@@ -1728,11 +1754,14 @@ body{
         .fila12-2,.fila13-1,.fila13-2{
             padding: 0%;
         }
+        .fila12-2{
+            margin-top: 10px;
+        }
         #emailregistro{
-            margin-left: 15px;
+            margin-left: 10px;
             margin-bottom: 0px;
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
@@ -1741,31 +1770,33 @@ body{
             padding: 0%;
             width: 290px;
             height: 40px;
-            margin-left: 15px;
+            margin-left: 10px;
         }
         .fila14{
             height: 70px;
+            margin-left: 5px;
+            
         }
         .fila14-1,.fila14-2{
             padding: 0%;
+            margin-top: 10px;
         }
+        
         #passRegistro{
             margin-left: 35px;
             margin-bottom: 0px;
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
         }
         #pass{
             padding: 0%;
-            width: 320px;
+            width: 300px;
             height: 40px;
             margin-left: 35px;
             position:relative;
-            
-            
         }
         .inner-addon {
             position: relative;
@@ -1812,10 +1843,10 @@ body{
           }
        
         #confRegistro{
-            margin-left: 15px;
+            margin-left: 1px;
             margin-bottom: 0px;
             font-family: Lato-Regular;
-            font-size: 16px;
+            font-size: 13px;
             color: #3B3B3B;
             letter-spacing: 0;
             line-height: 13px;
@@ -1837,8 +1868,9 @@ body{
             padding: 0%;
             width: 290px;
             height: 40px;
-            margin-left: 15px;
+            margin-left: 0px;
             position:relative;
+            margin-right: 0px;
         }
         #basic-addon2{
             background-color: white;
@@ -1849,6 +1881,7 @@ body{
             padding: 0%;
             height: 65px;
             margin-top: 7px;
+            margin-left: 2px;
         }
         .fila15-2{
             padding: 0%;
@@ -1870,16 +1903,16 @@ body{
         }
         #textocheckabajo{
             font-family: Lato-Regular;
-            font-size: 14px;
+            font-size: 12px;
             color: #84868A;
             letter-spacing: 0;
             text-align: center;
             line-height: 20px;
-            margin-left: 16px;
+            margin-left: 32px;
             margin-right: 0px;
         }
         #checkconfirmo{
-            margin-left: 10px;
+            margin-left: 0px;
             margin-right: 0px;
             margin-top: 10px;
             margin-bottom: 0px;
@@ -1900,9 +1933,9 @@ body{
             margin-top: 26px;
         }
         #botonregistro{
-            width: 630px;
-            height: 50px;
-            margin-left: 37px;
+            width: 607px;
+            height: 43px;
+            margin-left: 45px;
             margin-top: 15px;
             background-color: #FA2398;
             border-color: #FA2398;
